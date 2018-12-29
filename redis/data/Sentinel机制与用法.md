@@ -1,0 +1,1 @@
+﻿[Sentinel机制与用法](http://note.youdao.com/noteshare?id=e0e16e55c17a1b3fbfd189934df0c3fd)
