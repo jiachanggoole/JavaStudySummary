@@ -1,0 +1,3 @@
+﻿[Redis最全总结](http://note.youdao.com/noteshare?id=53d289fb64cafea8abb0d8a647000bc8&sub=A7A1E4823DAE4B738C07AAE3DD0306AC)
+
+未完待续,持续更新中....

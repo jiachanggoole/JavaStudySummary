@@ -23,6 +23,38 @@
     <dependencyManagement>
         <dependencies>
 
+            <!--日志相关的jar 开始-->
+
+            <!--门面-->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-api</artifactId>
+                <version>1.7.6</version>
+            </dependency>
+
+            <!--替换器  将jcl转换到slf4j上面  其实就是不同组件之间的转换-->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>1.7.25</version>
+            </dependency>
+
+            <!--slf4j 与 log4j 的桥接器-->
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-log4j12</artifactId>
+                <version>1.7.6</version>
+            </dependency>
+
+            <!--具体的日志实现 这里是log4j-->
+            <dependency>
+                <groupId>log4j</groupId>
+                <artifactId>log4j</artifactId>
+                <version>1.2.17</version>
+            </dependency>
+
+            <!--日志相关的jar 结束-->
+
             <dependency>
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
