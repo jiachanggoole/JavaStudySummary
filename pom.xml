@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>redis</module>
+        <module>data-structure-algorithm</module>
     </modules>
 
     <repositories>
@@ -59,6 +60,13 @@
                 <groupId>redis.clients</groupId>
                 <artifactId>jedis</artifactId>
                 <version>2.9.0</version>
+            </dependency>
+
+
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.4</version>
             </dependency>
 
         </dependencies>

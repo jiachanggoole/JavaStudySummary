@@ -2,8 +2,6 @@ package com.sunny.redis.lock;
 
 import com.sunny.redis.BaseRedisUtil;
 import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
 
 import java.util.Objects;
 import java.util.concurrent.ExecutorService;
