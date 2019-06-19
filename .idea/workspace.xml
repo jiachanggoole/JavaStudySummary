@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="baec9b82-b37f-4a51-b0e3-b113b5cf7c0e" name="Default" comment="Redis哨兵部署文档">
-      <change afterPath="$PROJECT_DIR$/demo-test/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-test/src/main/java/com/bozhong/inhospitalqc/ClassLoaderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-test/src/main/java/com/bozhong/inhospitalqc/ListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-test/src/main/java/com/bozhong/inhospitalqc/RabbitRoadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-test/src/main/java/com/bozhong/inhospitalqc/TestDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-test/src/main/resources/config/ibatis/generator/config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/ClosingLiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/Context.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/LiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/OpeningLiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/RunningLiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design-pattern/src/main/java/com/sunny/stateMode/StoppingLiftState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jvm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="baec9b82-b37f-4a51-b0e3-b113b5cf7c0e" name="Default" comment="JVM上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaStudySummary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaStudySummary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/redis.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,6 +12,7 @@
     <ignored path="$PROJECT_DIR$/demo-test/target/" />
     <ignored path="$PROJECT_DIR$/design-pattern/target/" />
     <ignored path="$PROJECT_DIR$/spring-boot-archetype/target/" />
+    <ignored path="$PROJECT_DIR$/jvm/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +57,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="187">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
@@ -237,28 +216,6 @@
               <item name="JavaStudySummary" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaStudySummary" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="JavaStudySummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudySummary" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudySummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudySummary" type="462c0819:PsiDirectoryNode" />
-              <item name="jvm" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudySummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudySummary" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaStudySummary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JavaStudySummary" type="462c0819:PsiDirectoryNode" />
-              <item name="redis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -270,7 +227,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560953602649" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560953774463" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -677,7 +634,7 @@
       <workItem from="1558925054134" duration="208000" />
       <workItem from="1559529372837" duration="575000" />
       <workItem from="1560325702185" duration="3902000" />
-      <workItem from="1560953247074" duration="263000" />
+      <workItem from="1560953247074" duration="505000" />
     </task>
     <task id="LOCAL-00001" summary="配置忽略文件">
       <created>1544668251877</created>
@@ -700,11 +657,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545217167388</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="JVM上传">
+      <created>1560953679517</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560953679517</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78582000" />
+    <option name="totallyTimeSpent" value="78824000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="140" y="23" width="1300" height="877" extended-state="0" />
@@ -811,7 +775,8 @@
     <MESSAGE value="Redis哨兵部署文档" />
     <MESSAGE value="Redis哨兵 代码demo" />
     <MESSAGE value="Sentinel机制与用法梳理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sentinel机制与用法梳理" />
+    <MESSAGE value="JVM上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="JVM上传" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -926,9 +891,6 @@
           <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/redis/data/Redis数据结构.png">
-      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/redis/data/Sentinel机制与用法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -1288,10 +1250,13 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/redis/data/Redis数据结构.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/jvm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="187">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
         </state>
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
