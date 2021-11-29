@@ -2,23 +2,28 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="data-structure-algorithm" />
-        <module name="design-pattern" />
         <module name="jvm" />
-        <module name="redis" />
+        <module name="design-pattern" />
+        <module name="data-structure-algorithm" />
         <module name="spring-boot" />
+        <module name="hello-spring-boot-starter" />
+        <module name="mybatis-plus" />
+        <module name="redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="data-structure-algorithm" target="1.8" />
       <module name="demo-test" target="1.8" />
       <module name="design-pattern" target="1.8" />
+      <module name="hello-spring-boot-starter" target="1.8" />
       <module name="JavaStudySummary" target="1.8" />
       <module name="jvm" target="1.8" />
+      <module name="mybatis-plus" target="1.8" />
       <module name="redis" target="1.8" />
       <module name="spring-boot" target="1.8" />
       <module name="spring-boot-archetype" target="1.8" />
@@ -29,7 +34,9 @@
       <module name="data-structure-algorithm" options="-parameters" />
       <module name="demo-test" options="-parameters" />
       <module name="design-pattern" options="-parameters" />
+      <module name="hello-spring-boot-starter" options="-parameters" />
       <module name="jvm" options="-parameters" />
+      <module name="mybatis-plus" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-boot-archetype" options="-parameters" />

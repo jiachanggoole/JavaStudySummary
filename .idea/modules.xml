@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/JavaStudySummary.iml" filepath="$PROJECT_DIR$/JavaStudySummary.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structure-algorithm/data-structure-algorithm.iml" filepath="$PROJECT_DIR$/data-structure-algorithm/data-structure-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/design-pattern/design-pattern.iml" filepath="$PROJECT_DIR$/design-pattern/design-pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/mybatis-plus/mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
     </modules>

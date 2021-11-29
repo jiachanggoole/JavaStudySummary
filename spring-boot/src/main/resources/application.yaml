@@ -1,9 +1,9 @@
-#com.sunny.title=Ì«ÑôÊØ»¤Õß
+#com.sunny.title=Ì«ï¿½ï¿½ï¿½Ø»ï¿½ï¿½ï¿½
 #com.sunny.description=Ñ§Ï°ing
 # application.yaml
 # Server settings (ServerProperties)
 server:
-    port: 8089
+    port: 9099
     address: 127.0.0.1
     sessionTimeout: 30
     contextPath: /aaa
@@ -15,3 +15,11 @@ tomcat:
     remoteIpHeader: x-forwarded-for
     basedir:
     backgroundProcessorDelay: 30 # secs
+
+
+sms:
+    aliyun:
+        user-name: å¼ ä¸‰
+        pass-word: 12356
+        sign: sign123
+        url: http://hello.com

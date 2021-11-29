@@ -22,16 +22,10 @@
         <module>spring-boot</module>
         <module>design-pattern</module>
         <module>jvm</module>
+        <module>hello-spring-boot-starter</module>
     </modules>
 
     <repositories>
-
-        <repository>
-            <id>ewell</id>
-            <name>Ewell Repository</name>
-            <url>http://172.16.150.232:8081/nexus/content/groups/public/</url>
-        </repository>
-
         <repository>
             <id>nexus-aliyun</id>
             <name>aliyun Repository</name>
